@@ -5,37 +5,54 @@
 	const features = [
 		{
 			id: 1,
-			title: "Calculate Subnet and Broadcast Address",
+			title: "Get Network Information",
 			description:
-				"Quickly split a network into smaller subnets based on IP and mask. Simple and efficient.",
-			icon: "/images/icons/svg/subnets.svg",
+				"Retrieve detailed information about a given network, including the network address, subnet mask, and range of hosts.",
+			icon: "/images/icons/svg/internet.svg",
 		},
 		{
 			id: 2,
-			title: "Divide a Network into Subnets",
+			title: "Convert Prefix to Subnet Mask",
 			description:
-				"Quickly split a network into smaller subnets based on IP and mask. Simple and efficient.",
-			icon: "/images/icons/svg/subnets.svg",
+				"Easily convert an IP prefix length (CIDR) to its corresponding subnet mask.",
+			icon: "/images/icons/svg/label.svg",
 		},
 		{
 			id: 3,
-			title: "Divide a Network into Subnets",
+			title: "Convert Subnet Mask to Prefix",
 			description:
-				"Quickly split a network into smaller subnets based on IP and mask. Simple and efficient.",
-			icon: "/images/icons/svg/subnets.svg",
+				"Convert a subnet mask into its corresponding CIDR prefix length to understand the size of the subnet.",
+			icon: "/images/icons/svg/mask.svg",
 		},
 		{
 			id: 4,
+			title: "Convert IP Address to Binary",
+			description:
+				"Convert an IP address into its binary representation for network analysis and troubleshooting.",
+			icon: "/images/icons/svg/bin.svg",
+		},
+		{
+			id: 5,
+			title: "Convert Binary to IP Address",
+			description:
+				"Convert a 32-bit binary string into a human-readable IPv4 address in dotted-decimal format, helping with network analysis and troubleshooting.",
+			icon: "/images/icons/svg/convert.svg",
+		},
+
+		{
+			id: 6,
 			title: "Divide a Network into Subnets",
 			description:
-				"Quickly split a network into smaller subnets based on IP and mask. Simple and efficient.",
+				"Efficiently split a larger network into smaller subnets based on a given IP address and subnet mask.",
 			icon: "/images/icons/svg/subnets.svg",
 		},
 	];
 </script>
 
 <Section title="Features">
-	<div class="mt-12 grid grid-cols-4 gap-5 justify-items-center">
+	<div
+		class="mt-12 grid grid-cols-[repeat(1,_300px)] gap-5 justify-items-center justify-center
+		md:grid-cols-[repeat(2,_300px)] lg:grid-cols-[repeat(3,_300px)] xl:grid-cols-[repeat(4,_300px)]">
 		{#each features as feature (feature.id)}
 			<Feature data={feature} />
 		{/each}
