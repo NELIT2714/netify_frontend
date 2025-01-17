@@ -49,7 +49,7 @@
 				data = await convertBinaryToIP(binaryIPAddress);
 				break;
 		}
-		errorMessage = data ? null : "An internal application error occurred. Please check your input and try again";
+		errorMessage = data ? null : "Error. Please check your input and try again";
 
 		if (!errorMessage) {
 			resultModalToggle();
