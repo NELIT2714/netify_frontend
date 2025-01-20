@@ -49,7 +49,7 @@
 	];
 </script>
 
-<Section title="Features">
+<Section title="Features" sectionID="features">
 	<div
 		class="mt-12 grid grid-cols-[repeat(1,_300px)] gap-5 justify-items-center justify-center
 		md:grid-cols-[repeat(2,_300px)] lg:grid-cols-[repeat(3,_300px)] xl:grid-cols-[repeat(4,_300px)]">
