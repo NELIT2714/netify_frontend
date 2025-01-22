@@ -1,6 +1,5 @@
 <script>
 	import HeroSection from "$lib/components/+heroSection.svelte";
-	import NetworkManagementForm from "$lib/components/+networkManagementForm.svelte";
 	import Features from "$lib/components/+features.svelte";
 </script>
 
@@ -14,5 +13,4 @@
 </svelte:head>
 
 <HeroSection />
-<!-- <NetworkManagementForm /> -->
 <Features />
