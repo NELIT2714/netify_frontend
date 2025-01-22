@@ -46,6 +46,20 @@
 				"Efficiently split a larger network into smaller subnets based on a given IP address and subnet mask.",
 			icon: "/images/icons/svg/subnets.svg",
 		},
+		{
+			id: 7,
+			title: "Open API",
+			description:
+				"Provide seamless and easy access to all network-related operations through an open API.",
+			icon: "/images/icons/svg/api.svg",
+		},
+		{
+			id: 8,
+			title: "High-Speed Performance",
+			description:
+				"Ensure lightning-fast processing of all network calculations and operations for optimal user experience.",
+			icon: "/images/icons/svg/speed.svg",
+		},	
 	];
 </script>
 

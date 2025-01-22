@@ -3,10 +3,10 @@
 </script>
 
 <div
-	class="bg-[#171717] p-5 rounded-[15px] flex flex-col gap-3 border-2 border-[#1B1B1B] cursor-pointer duration-[0.4s]
-			active:translate-y-[-10px] active:border-[#39965F]
-			lg:hover:translate-y-[-10px] lg:hover:border-[#39965F]">
-	<div class="flex gap-3">
+	class="bg-[#171717] p-5 rounded-[15px] flex flex-col gap-3 border-2 border-[#1B1B1B] duration-[0.4s]
+			active:translate-y-[-5px] active:border-[#39965F]
+			lg:hover:translate-y-[-5px] lg:hover:border-[#39965F]">
+	<div class="flex gap-3 items-center">
 		<div>
 			<img src={data.icon} class="w-[60px]" alt="" />
 		</div>
