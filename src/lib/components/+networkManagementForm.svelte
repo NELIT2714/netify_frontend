@@ -9,7 +9,7 @@
 	} from "/src/lib/js/netifyFunctions.js";
 	import Modal from "$lib/components/ui/+modal.svelte";
 
-	let netifyFunc = "5";
+	let netifyFunc = "1";
 	let ipAddress = "";
 	let subnetPrefix = 24;
 	let binaryIPAddress = "11000000101010000000000000000001";
