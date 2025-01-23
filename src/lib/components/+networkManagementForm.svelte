@@ -57,8 +57,6 @@
 				data = await divideNetwork(networkIP, subnetPrefix, hostsPerSubnet);
 				break;
 		}
-		console.log(data);
-
 		errorMessage = data.detail ? data.detail : null;
 
 		if (!errorMessage) {
