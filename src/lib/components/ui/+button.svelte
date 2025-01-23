@@ -10,7 +10,7 @@
 
 <button
 	on:click
-	class="p-2 rounded-[10px] w-full {styleBtn ? styles[styleBtn] : styles.primary}"
+	class="p-2 rounded-[10px] w-full text-white {styleBtn ? styles[styleBtn] : styles.primary}"
 	type={typeBtn ? typeBtn : "button"}>
 	<slot />
 </button>
