@@ -59,7 +59,7 @@
 		}
 		console.log(data);
 
-		errorMessage = data ? null : "Error. Check your input and try again";
+		errorMessage = data.detail ? data.detail : null;
 
 		if (!errorMessage) {
 			resultModalToggle();
