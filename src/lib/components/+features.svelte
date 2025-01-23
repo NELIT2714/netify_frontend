@@ -59,13 +59,13 @@
 			description:
 				"Ensure lightning-fast processing of all network calculations and operations for optimal user experience.",
 			icon: "/images/icons/svg/speed.svg",
-		},	
+		},
 	];
 </script>
 
 <Section title="Features" sectionID="features">
 	<div
-		class="mt-12 grid grid-cols-[repeat(1,_300px)] gap-5 justify-items-center justify-center
+		class="mt-12 grid grid-cols-[repeat(1,_300px)] gap-5 justify-items-center justify-center select-none
 		md:grid-cols-[repeat(2,_300px)] lg:grid-cols-[repeat(3,_300px)] xl:grid-cols-[repeat(4,_300px)]">
 		{#each features as feature (feature.id)}
 			<Feature data={feature} />
